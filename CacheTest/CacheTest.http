@@ -1,0 +1,21 @@
+@CacheTest_HostAddress = http://localhost:5077
+
+GET {{CacheTest_HostAddress}}/data
+Accept: application/json
+
+###
+
+GET {{CacheTest_HostAddress}}/data/15
+Accept: application/json
+
+###
+
+POST {{CacheTest_HostAddress}}/invalidate
+Accept: application/json
+Content-Type: application/json
+
+###
+
+POST {{CacheTest_HostAddress}}/invalidate/5
+Accept: application/json
+Content-Type: application/json

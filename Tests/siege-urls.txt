@@ -1,0 +1,4 @@
+CacheTest_HostAddress=http://localhost:5077
+
+$(CacheTest_HostAddress)/data
+$(CacheTest_HostAddress)/data/5
